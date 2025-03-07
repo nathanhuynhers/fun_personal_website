@@ -57,7 +57,7 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: flex-end; /* Changed from space-between to flex-end */
+    justify-content: flex-end; 
     align-items: center;
     background-color: #333;
     padding: 10px 40px;

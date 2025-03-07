@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Number Input Form</title>
+    <title>Number To Pokemon</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,10 +14,15 @@
         </ul>
     </nav>
     <h1>Enter a Number</h1>
-    <form>
+    <form id="numberForm">
         <label for="numberInput">Number:</label>
         <input type="number" id="numberInput" name="numberInput">
-        <input type="submit" value="Submit">
+        <button id="submitButton">Submit</button>
     </form>
+    
+    <div id="pokemon-container"></div>
+
+    <script src="script.js"></script> 
 </body>
+
 </html>
